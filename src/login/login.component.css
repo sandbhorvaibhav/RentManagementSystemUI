@@ -1,0 +1,56 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.login{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black
+}
+.text-box{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.btn-lg{
+   
+        background-color: rgb(55, 129, 202);
+        border-radius: 5px;
+        color: white;
+        font-size: 16px; 
+        height: 35px;
+        width: 30%;
+        border: none;
+        margin-left: 125px;
+        
+    
+    
+}
+.mb-0
+{
+    margin-left: 8px;
+    margin-top: 5px;
+    padding-top: 2%;
+}
+.forgot
+{
+    margin-right: 5px;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
